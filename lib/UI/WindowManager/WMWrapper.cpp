@@ -18,7 +18,7 @@ extern "C" {
         wm->Show();
     }
 
-    EXPORT void MM_AddElement(WM* wm, int type, float width, float height) {
-        wm->GetRenderer()->CreateElement(type, width, height);
-    }
+    // EXPORT void MM_AddElement(WM* wm, int type, float width, float height) {
+    //     wm->GetRenderer()->CreateElement(type, width, height);
+    // }
 }

@@ -17,13 +17,13 @@ namespace MLM {
         [DllImport("lib/UI/libWM.dylib", CallingConvention = CallingConvention.Cdecl)]
         public static extern void WM_Show(IntPtr wm);
 
-        [DllImport("lib/UI/libWM.dylib", CallingConvention = CallingConvention.Cdecl)]
-        public static extern void MM_AddElement(IntPtr wm, int type, float widht, float height);
+        // [DllImport("lib/UI/libWM.dylib", CallingConvention = CallingConvention.Cdecl)]
+        // public static extern void MM_AddElement(IntPtr wm, int type, float widht, float height);
         public static void Main(string[] args) {
             System.Console.WriteLine("Hello, World!");
             IntPtr wm = WM_Create();
             WM_CreateWindow(wm, 800, 600, "MLM");
-            MM_AddElement(wm, 0, 100, 100);
+            // MM_AddElement(wm, 0, 100, 100);
             WM_Show(wm);
         }
     }

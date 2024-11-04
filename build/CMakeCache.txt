@@ -241,7 +241,7 @@ UIcppLib_IS_TOP_LEVEL:STATIC=OFF
 UIcppLib_SOURCE_DIR:STATIC=/Users/kf/Documents/mlm-cs/lib/UI
 
 //Dependencies for the target
-WM_LIB_DEPENDS:STATIC=general;glfw;general;GLEW::GLEW;general;glm::glm;
+WM_LIB_DEPENDS:STATIC=general;-framework Metal;general;-framework QuartzCore;general;-framework Cocoa;
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/opt/homebrew/lib/cmake/glfw3

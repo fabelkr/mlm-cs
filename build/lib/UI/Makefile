@@ -130,101 +130,29 @@ WM/fast:
 	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/build
 .PHONY : WM/fast
 
-Renderer/Model/ModelManager.o: Renderer/Model/ModelManager.cpp.o
-.PHONY : Renderer/Model/ModelManager.o
-
-# target to build an object file
-Renderer/Model/ModelManager.cpp.o:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o
-.PHONY : Renderer/Model/ModelManager.cpp.o
-
-Renderer/Model/ModelManager.i: Renderer/Model/ModelManager.cpp.i
-.PHONY : Renderer/Model/ModelManager.i
-
-# target to preprocess a source file
-Renderer/Model/ModelManager.cpp.i:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.i
-.PHONY : Renderer/Model/ModelManager.cpp.i
-
-Renderer/Model/ModelManager.s: Renderer/Model/ModelManager.cpp.s
-.PHONY : Renderer/Model/ModelManager.s
-
-# target to generate assembly for a file
-Renderer/Model/ModelManager.cpp.s:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.s
-.PHONY : Renderer/Model/ModelManager.cpp.s
-
-Renderer/Model/Rect.o: Renderer/Model/Rect.cpp.o
-.PHONY : Renderer/Model/Rect.o
-
-# target to build an object file
-Renderer/Model/Rect.cpp.o:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o
-.PHONY : Renderer/Model/Rect.cpp.o
-
-Renderer/Model/Rect.i: Renderer/Model/Rect.cpp.i
-.PHONY : Renderer/Model/Rect.i
-
-# target to preprocess a source file
-Renderer/Model/Rect.cpp.i:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.i
-.PHONY : Renderer/Model/Rect.cpp.i
-
-Renderer/Model/Rect.s: Renderer/Model/Rect.cpp.s
-.PHONY : Renderer/Model/Rect.s
-
-# target to generate assembly for a file
-Renderer/Model/Rect.cpp.s:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.s
-.PHONY : Renderer/Model/Rect.cpp.s
-
-Renderer/Renderer.o: Renderer/Renderer.cpp.o
-.PHONY : Renderer/Renderer.o
-
-# target to build an object file
-Renderer/Renderer.cpp.o:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o
-.PHONY : Renderer/Renderer.cpp.o
-
-Renderer/Renderer.i: Renderer/Renderer.cpp.i
-.PHONY : Renderer/Renderer.i
-
-# target to preprocess a source file
-Renderer/Renderer.cpp.i:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.i
-.PHONY : Renderer/Renderer.cpp.i
-
-Renderer/Renderer.s: Renderer/Renderer.cpp.s
-.PHONY : Renderer/Renderer.s
-
-# target to generate assembly for a file
-Renderer/Renderer.cpp.s:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.s
-.PHONY : Renderer/Renderer.cpp.s
-
-WindowManager/WM.o: WindowManager/WM.cpp.o
+WindowManager/WM.o: WindowManager/WM.mm.o
 .PHONY : WindowManager/WM.o
 
 # target to build an object file
-WindowManager/WM.cpp.o:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o
-.PHONY : WindowManager/WM.cpp.o
+WindowManager/WM.mm.o:
+	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o
+.PHONY : WindowManager/WM.mm.o
 
-WindowManager/WM.i: WindowManager/WM.cpp.i
+WindowManager/WM.i: WindowManager/WM.mm.i
 .PHONY : WindowManager/WM.i
 
 # target to preprocess a source file
-WindowManager/WM.cpp.i:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.i
-.PHONY : WindowManager/WM.cpp.i
+WindowManager/WM.mm.i:
+	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.i
+.PHONY : WindowManager/WM.mm.i
 
-WindowManager/WM.s: WindowManager/WM.cpp.s
+WindowManager/WM.s: WindowManager/WM.mm.s
 .PHONY : WindowManager/WM.s
 
 # target to generate assembly for a file
-WindowManager/WM.cpp.s:
-	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.s
-.PHONY : WindowManager/WM.cpp.s
+WindowManager/WM.mm.s:
+	cd /Users/kf/Documents/mlm-cs/build && $(MAKE) $(MAKESILENT) -f lib/UI/CMakeFiles/WM.dir/build.make lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.s
+.PHONY : WindowManager/WM.mm.s
 
 WindowManager/WMWrapper.o: WindowManager/WMWrapper.cpp.o
 .PHONY : WindowManager/WMWrapper.o
@@ -259,15 +187,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WM"
-	@echo "... Renderer/Model/ModelManager.o"
-	@echo "... Renderer/Model/ModelManager.i"
-	@echo "... Renderer/Model/ModelManager.s"
-	@echo "... Renderer/Model/Rect.o"
-	@echo "... Renderer/Model/Rect.i"
-	@echo "... Renderer/Model/Rect.s"
-	@echo "... Renderer/Renderer.o"
-	@echo "... Renderer/Renderer.i"
-	@echo "... Renderer/Renderer.s"
 	@echo "... WindowManager/WM.o"
 	@echo "... WindowManager/WM.i"
 	@echo "... WindowManager/WM.s"

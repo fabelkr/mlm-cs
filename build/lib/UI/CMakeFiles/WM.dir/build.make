@@ -69,19 +69,19 @@ include lib/UI/CMakeFiles/WM.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/UI/CMakeFiles/WM.dir/flags.make
 
-lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o: lib/UI/CMakeFiles/WM.dir/flags.make
-lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o: /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.cpp
-lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o: lib/UI/CMakeFiles/WM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o -MF CMakeFiles/WM.dir/WindowManager/WM.cpp.o.d -o CMakeFiles/WM.dir/WindowManager/WM.cpp.o -c /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.cpp
+lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o: lib/UI/CMakeFiles/WM.dir/flags.make
+lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o: /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.mm
+lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o: lib/UI/CMakeFiles/WM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o"
+	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o -MF CMakeFiles/WM.dir/WindowManager/WM.mm.o.d -o CMakeFiles/WM.dir/WindowManager/WM.mm.o -c /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.mm
 
-lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WM.dir/WindowManager/WM.cpp.i"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.cpp > CMakeFiles/WM.dir/WindowManager/WM.cpp.i
+lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WM.dir/WindowManager/WM.mm.i"
+	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.mm > CMakeFiles/WM.dir/WindowManager/WM.mm.i
 
-lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/WindowManager/WM.cpp.s"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.cpp -o CMakeFiles/WM.dir/WindowManager/WM.cpp.s
+lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/WindowManager/WM.mm.s"
+	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WM.mm -o CMakeFiles/WM.dir/WindowManager/WM.mm.s
 
 lib/UI/CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.o: lib/UI/CMakeFiles/WM.dir/flags.make
 lib/UI/CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.o: /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WMWrapper.cpp
@@ -97,70 +97,19 @@ lib/UI/CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.s"
 	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/WindowManager/WMWrapper.cpp -o CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.s
 
-lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o: lib/UI/CMakeFiles/WM.dir/flags.make
-lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o: /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Renderer.cpp
-lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o: lib/UI/CMakeFiles/WM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o -MF CMakeFiles/WM.dir/Renderer/Renderer.cpp.o.d -o CMakeFiles/WM.dir/Renderer/Renderer.cpp.o -c /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Renderer.cpp
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WM.dir/Renderer/Renderer.cpp.i"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Renderer.cpp > CMakeFiles/WM.dir/Renderer/Renderer.cpp.i
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/Renderer/Renderer.cpp.s"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Renderer.cpp -o CMakeFiles/WM.dir/Renderer/Renderer.cpp.s
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o: lib/UI/CMakeFiles/WM.dir/flags.make
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o: /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/ModelManager.cpp
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o: lib/UI/CMakeFiles/WM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o -MF CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o.d -o CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o -c /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/ModelManager.cpp
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.i"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/ModelManager.cpp > CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.i
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.s"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/ModelManager.cpp -o CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.s
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o: lib/UI/CMakeFiles/WM.dir/flags.make
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o: /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/Rect.cpp
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o: lib/UI/CMakeFiles/WM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o -MF CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o.d -o CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o -c /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/Rect.cpp
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.i"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/Rect.cpp > CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.i
-
-lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.s"
-	cd /Users/kf/Documents/mlm-cs/build/lib/UI && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kf/Documents/mlm-cs/lib/UI/Renderer/Model/Rect.cpp -o CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.s
-
 # Object files for target WM
 WM_OBJECTS = \
-"CMakeFiles/WM.dir/WindowManager/WM.cpp.o" \
-"CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.o" \
-"CMakeFiles/WM.dir/Renderer/Renderer.cpp.o" \
-"CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o" \
-"CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o"
+"CMakeFiles/WM.dir/WindowManager/WM.mm.o" \
+"CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.o"
 
 # External object files for target WM
 WM_EXTERNAL_OBJECTS =
 
-lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/WindowManager/WM.cpp.o
+lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/WindowManager/WM.mm.o
 lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/WindowManager/WMWrapper.cpp.o
-lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/Renderer/Renderer.cpp.o
-lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/Renderer/Model/ModelManager.cpp.o
-lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/Renderer/Model/Rect.cpp.o
 lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/build.make
-lib/UI/libWM.dylib: /opt/homebrew/lib/libglfw.3.4.dylib
-lib/UI/libWM.dylib: /opt/homebrew/lib/libGLEW.2.2.0.dylib
-lib/UI/libWM.dylib: /opt/homebrew/lib/libglm.dylib
 lib/UI/libWM.dylib: lib/UI/CMakeFiles/WM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libWM.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kf/Documents/mlm-cs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libWM.dylib"
 	cd /Users/kf/Documents/mlm-cs/build/lib/UI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
