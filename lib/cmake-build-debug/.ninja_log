@@ -1,0 +1,27 @@
+# ninja log v5
+3	378	1730407799501653333	CMakeFiles/lib.dir/test.cpp.o	d58e82f11917cea6
+0	877	1730407731256451040	CMakeFiles/lib.dir/UI/Renderer/Model/ModelManager.cpp.o	1480b0e235a6b91a
+1	845	1730407731225415237	CMakeFiles/lib.dir/UI/WindowManager/WM.cpp.o	3be15be67a17531b
+1	844	1730407731223253849	CMakeFiles/lib.dir/UI/WindowManager/WMWrapper.cpp.o	a57a61407f1ed6ad
+1	901	1730407731282086105	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+0	789	1730407731163812673	CMakeFiles/lib.dir/UI/Renderer/Model/Rect.cpp.o	da922aae951586d4
+0	447	1730407853620542863	build.ninja	8119464723ebcae3
+1	64	1730407853620542863	build.ninja	8119464723ebcae3
+12	205	1730407853827466724	lib	aeb017fa507939d4
+14	681	1730408082258269971	CMakeFiles/lib.dir/test.cpp.o	d58e82f11917cea6
+14	682	1730408082258268804	CMakeFiles/lib.dir/UI/WindowManager/WMWrapper.cpp.o	a57a61407f1ed6ad
+14	690	1730408082268885421	CMakeFiles/lib.dir/UI/WindowManager/WM.cpp.o	3be15be67a17531b
+13	728	1730408082307102616	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+728	883	1730408082463193713	lib	aeb017fa507939d4
+3	682	1730408157299007253	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+683	805	1730408157423549558	lib	aeb017fa507939d4
+20	747	1730408889539629525	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+747	865	1730408889659636124	lib	aeb017fa507939d4
+4	647	1730409105000732136	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+647	763	1730409105118903155	lib	aeb017fa507939d4
+4	617	1730409343904857176	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+617	733	1730409344024212577	lib	aeb017fa507939d4
+3	701	1730409456395338505	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+701	818	1730409456513388097	lib	aeb017fa507939d4
+3	858	1730411513719108344	CMakeFiles/lib.dir/UI/Renderer/Renderer.cpp.o	9bdf13ac15f7eed4
+859	1018	1730411513876292868	lib	aeb017fa507939d4

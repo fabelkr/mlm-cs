@@ -1,0 +1,14 @@
+/Users/kf/Documents/mlm-cs/build/Project
+/Users/kf/Documents/mlm-cs/build/Project.deps.json
+/Users/kf/Documents/mlm-cs/build/Project.runtimeconfig.json
+/Users/kf/Documents/mlm-cs/build/Project.dll
+/Users/kf/Documents/mlm-cs/build/Project.pdb
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.AssemblyInfoInputs.cache
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.AssemblyInfo.cs
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.csproj.CoreCompileInputs.cache
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.dll
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/refint/Project.dll
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.pdb
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/Project.genruntimeconfig.cache
+/Users/kf/Documents/mlm-cs/obj/Debug/net8.0/ref/Project.dll

@@ -1,0 +1,6 @@
+/Users/kf/Documents/mlm-cs/cmake-build-debug/CMakeFiles/MLM.dir
+/Users/kf/Documents/mlm-cs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kf/Documents/mlm-cs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kf/Documents/mlm-cs/cmake-build-debug/lib/UI/CMakeFiles/WM.dir
+/Users/kf/Documents/mlm-cs/cmake-build-debug/lib/UI/CMakeFiles/edit_cache.dir
+/Users/kf/Documents/mlm-cs/cmake-build-debug/lib/UI/CMakeFiles/rebuild_cache.dir
