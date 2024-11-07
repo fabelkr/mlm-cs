@@ -1,4 +1,24 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/kf/Documents/mlm-cs/lib -B /Users/kf/Documents/mlm-cs/lib/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/kf/Documents/mlm-cs/lib/cmake-build-debug
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake:306 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done (0.2s)
+CMake Error at CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    UI/Renderer/Model/ModelInterface.hpp
+
+
+CMake Error at CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: lib
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
