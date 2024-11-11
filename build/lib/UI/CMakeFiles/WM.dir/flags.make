@@ -6,7 +6,7 @@ CXX_DEFINES = -DSHADER_DIR=\"/Users/kf/Documents/mlm-cs/lib/UI/Shaders/\" -DWM_E
 
 CXX_INCLUDES = -I/Users/kf/Documents/mlm-cs/lib/UI -I/Users/kf/Documents/mlm-cs/lib/UI/WindowManager -I/Users/kf/Documents/mlm-cs/lib/UI/Renderer
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fdeclspec
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fPIC -fdeclspec
 
-CXX_FLAGS = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -fdeclspec
+CXX_FLAGS = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fPIC -fdeclspec
 

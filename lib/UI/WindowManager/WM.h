@@ -1,6 +1,4 @@
 #pragma once
-#include <iostream>
-#include <array>
 // #include <Renderer/Renderer.h>
 
 class WMImpl;
